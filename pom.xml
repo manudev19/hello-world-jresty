@@ -167,5 +167,17 @@
 			</resource>
 		</resources>
 	</build>
+	<distributionManagement>
+    <repository>
+      <id>nexus</id>
+      <name>Releases</name>
+      <url>http://ec2-18-190-79-162.us-east-2.compute.amazonaws.com:8081/repository/maven-releases</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>Snapshot</name>
+      <url>http://ec2-18-190-79-162.us-east-2.compute.amazonaws.com:8081/repository/maven-snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
 
 </project>
